@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
   
@@ -29,7 +29,7 @@
 <body>
 	
    <!-- Ganti Audio di sini -->
-   <audio src= "https://feeldreams.github.io/" class="sembunyi"></audio>
+   <audio src= "https://feeldreams.github.io/" id="linkmp3" class="sembunyi"></audio>
    
    <div id="bodyblur">
      <!-- Wallpaper --><img src="https://pilus-ex.github.io/coba/bg1.jpg" id="wallpaper"/><div id="beneranblur"></div>
@@ -76,7 +76,7 @@
        <p id="pesan7" class="gaya2">smoga bisa mengujudkan smua keinginan kmu</p>
 
        <p id="pesan8" class="gaya2">Canda wkwwk nanti ada misteri box selanjutnya:v</p>
-       <p id="pesan9" class="gaya2">Oh iya, semoga di hari spesial ini kamu bisa jadi pribadi yang lebih baik yaa.. ️</p>
+       <p id="pesan9" class="gaya2">Oh iya, semoga di hari spesialmu ini kamu dapat menjadi pribadi yang lebih baik yaa.. ️</p>
        <p id="pesan10" class="gaya2">Happy Level Up Day!! 🥳</p>
 
        <!-- Tombol Lanjut -->
@@ -104,7 +104,7 @@
   
   async function inipesan(){
     var { value: nama } = await swals.fire({
-           title: 'Masukin Nama kamu njel', input: 'text',
+           title: 'Masukin Nama Kamu', input: 'text',
        });
        if(nama && nama.length < 11){
          window.nama = nama;
